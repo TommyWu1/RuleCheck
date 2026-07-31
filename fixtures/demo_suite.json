@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "name": "New employee",
+      "months_employed": 0,
+      "expected_days": 0,
+      "rationale": "Fewer than 12 completed months receives no vacation days."
+    },
+    {
+      "name": "Below first threshold",
+      "months_employed": 11,
+      "expected_days": 0,
+      "rationale": "Eleven months is immediately below the first service threshold."
+    },
+    {
+      "name": "At first threshold",
+      "months_employed": 12,
+      "expected_days": 10,
+      "rationale": "The 10-day entitlement starts at 12 completed months."
+    },
+    {
+      "name": "Below second threshold",
+      "months_employed": 59,
+      "expected_days": 10,
+      "rationale": "Fifty-nine months is immediately below the second threshold."
+    },
+    {
+      "name": "At second threshold",
+      "months_employed": 60,
+      "expected_days": 15,
+      "rationale": "The 15-day entitlement starts at 60 completed months."
+    }
+  ]
+}

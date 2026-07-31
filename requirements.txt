@@ -1,0 +1,8 @@
+chromadb>=1.0,<2
+langchain-chroma>=0.2,<1
+langchain-core>=0.3,<2
+langchain-text-splitters>=0.3,<2
+openai>=1.90,<3
+pydantic>=2.11,<3
+python-dotenv>=1.1,<2
+pytest>=8.4,<10
